@@ -1,0 +1,11 @@
+[build]
+  command = "pnpm install && pnpm build"
+  functions = "netlify/functions"
+
+[functions]
+  node_bundler = "esbuild"
+  included_files = ["netlify/functions/send-simulation-bundled.js"]
+
+[build.environment]
+  NODE_VERSION = "18"
+  NPM_FLAGS = "--version"
