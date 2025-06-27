@@ -187,6 +187,7 @@ const App: React.FC = () => {
       <div className="bg-slate-800/50 backdrop-blur-sm ring-1 ring-white/10 p-6 sm:p-10 rounded-2xl shadow-2xl w-full max-w-5xl mx-auto">
         
         <div className="text-center mb-10">
+            <img src="/generique-turquoise.svg" alt="Logo Aeternia Patrimoine" className="w-16 h-16 mx-auto mb-4" />
             <h1 className="text-3xl sm:text-4xl font-bold text-gray-100">
                 Simulateur de Droits de Succession et Donation
             </h1>
