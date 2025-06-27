@@ -256,7 +256,7 @@ const App: React.FC = () => {
                                 <ResponsiveContainer>
                                     <PieChart>
                                         <Pie data={chartData} dataKey="value" nameKey="name" cx="50%" cy="50%" outerRadius={60} label>
-                                            {chartData.map((entry, index) => (
+                                            {chartData.map((_, index) => (
                                                 <Cell key={`cell-${index}`} fill={COLORS[index % COLORS.length]} />
                                             ))}
                                         </Pie>
